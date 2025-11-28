@@ -82,6 +82,7 @@ class Source(Node):
             ".mp3": "MP3",
             ".ogg": "VORBIS",
             ".flac": "FLAC",
+            ".mid": "MIDI",
         }
         self.file = kwargs.get("file")
         self.process_extension()
